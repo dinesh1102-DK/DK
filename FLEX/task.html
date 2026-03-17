@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DK Cafe Flexbox Layout</title>
+
+<style>
+
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    text-align: center;
+}
+
+h1{
+    color: brown;
+}
+.container {
+    display: flex;                 
+    flex-direction: row;          
+    justify-content: center;     
+    align-items: center;           
+    gap: 40px;                  
+    height: 400px;
+    background-color: lightgray;
+}
+header{
+    color: rgb(210, 204, 97);
+    text-align: left;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(117, 72, 72);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>Welcome to DK Cafe</h1>
+
+<div class="container">
+
+<div class="box">
+    <header>
+<h3>Drinks</h3>
+</header>
+<p>Coffee</p>
+<P>Tea</P>
+<p>Fresh Juice</p>
+<p>Milk</p>
+
+
+</div>
+
+<div class="box">
+    <header>
+<h3>Snacks:</h3>
+</header>
+<p>Sandwich</p>
+<p>Bread Omelette</p>
+<p>Pizza</p>
+<p>Burger</p>
+</div>
+
+<div class="box">
+    <header>
+<h3>Desserts:</h3>
+</header>
+<p>Cakes</p>
+<p>Ice Cream</p>
+<p>Brownie</p>
+<p>Lava Cake</p>
+</div>
+
+</div>
+
+</body>
+</html>
